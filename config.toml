@@ -1,4 +1,4 @@
 baseURL = 'http://asdtalks.com/'
 languageCode = 'en-uk'
-title = 'ASD (Autism Spectrum Disorder) Talks'
+title = 'ASD Talks'
 theme = 'ananke'
