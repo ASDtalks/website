@@ -1,37 +1,62 @@
-title = "ASD talks"
-baseURL = "http//asdtalks.com"
-languageCode = "en-us"
-theme = 'ananke'
-resourceDir = "../resources"
+baseurl = "http://www.example.com"
+title = "ASDtalks"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
 
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 3
-googleAnalytics = ""
-enableRobotsTXT = true
+paginate = 20
 
-[languages]
-  [languages.en]
-    title = "ASD (autism spectrum disorder) talks"
-    weight = 1
-    contentDir = "content/en"
+disqusShortname = "yourdiscussshortname"
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+[markup.highlight]
+style = "github-dark"
 
 [params]
-  text_color = "red"
-  author = "matthew swan"
-  favicon = ""
-  site_logo = ""
-  description = "testing testing testing"
-  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-purple"
-  body_classes = "avenir bg-black"
-  recent_posts_number = 3
+  author = "Matthew Swan"
+  info = "Public Speaker on the subject of Autism Spectrum Disorders"
+  description = "ASDtalks professional website"
+  keywords = "public speaking"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "matthew@swanz.net"
 
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/matthew85869876"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/mswanz"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/matthew85869876"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
