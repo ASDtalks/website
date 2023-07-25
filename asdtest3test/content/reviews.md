@@ -1,0 +1,67 @@
+---
+title: "Reviews"
+date: 2023-06-29T10:30:49+01:00
+draft: true
+---
+
+title = "ASDtalks"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Matthew Swan"
+  info = "Public Speaker on the subject of Autism Spectrum Disorders"
+  description = "ASDtalks professional website"
+  keywords = "public speaking"
+  avatarurl = "images/avatar.jpg"
+  #gravatar = "matthew@swanz.net"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/mswanz"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/matthew85869876"
+
+# Menu links
+[[menu.main]]
+  name = "reviews"
+  weight = 1
+  url  = "reviews/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
