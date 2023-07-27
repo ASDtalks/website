@@ -16,7 +16,6 @@ style = "github-dark"
   info = "Public Speaker on the subject of Autism Spectrum Disorders"
   description = "ASDtalks professional website"
   keywords = "public speaking"
-  avatarurl = "images/avatar.jpg"
   #gravatar = "matthew@swanz.net"
 
   favicon_32 = "/img/favicon-32x32.png"
